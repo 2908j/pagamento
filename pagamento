@@ -2,7 +2,7 @@
 //documentação disponível em?
 //http://"pagina-de-pagamento.com.br"
 
-//token dados 
+//token dados do banco conveniado
 $data['token'] = 'TOKEN';
 $data['currency'] = 'BRL';
 
@@ -17,8 +17,10 @@ $data['senderEmail'] = "email do comprador preenchido"
 
 //finalização da compra
 $data['redirectURL'] = 'http://site.com.br/pedido-finalizadocomsucesso;
-//para redirecionamento da página demosntração a efetivação da compra
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+//para redirecionamento da página demosntração a efetivação da compra
+?
+
 
 
 
