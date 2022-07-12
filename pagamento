@@ -1,7 +1,8 @@
 <?php
 //documentação disponível em?
-//http://"pagina de pagamento"
+//http://"pagina-de-pagamento.com.br"
 
+//token dados 
 $data['token'] = 'TOKEN';
 $data['currency'] = 'BRL';
 
